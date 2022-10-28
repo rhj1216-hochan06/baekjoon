@@ -11,10 +11,8 @@ public class test5430 {
 	public static StringBuilder sb = new StringBuilder();
 
 	public static void main(String[] args) throws IOException {
-
 		ArrayDeque<Integer> deque;
 		StringTokenizer st;
-
 		int T = Integer.parseInt(br.readLine());
 
 		for (int a = 0; a < T; a++) {
