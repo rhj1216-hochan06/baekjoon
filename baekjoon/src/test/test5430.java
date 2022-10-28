@@ -11,17 +11,13 @@ public class test5430 {
 	public static StringBuilder sb = new StringBuilder();
 
 	public static void main(String[] args) throws IOException {
-
 		ArrayDeque<Integer> deque;
 		StringTokenizer st;
-
 		int T = Integer.parseInt(br.readLine());
-
 		for (int a = 0; a < T; a++) {
 			deque = new ArrayDeque<Integer>();
 			String p = br.readLine(); // 뒤집거나 삭제하는 스트링
 			int n = Integer.parseInt(br.readLine());
-
 			st = new StringTokenizer(br.readLine(), "[],");
 			// 덱에 배열 원소를 넣어준다.
 			for (int i = 0; i < n; i++) {
@@ -31,15 +27,10 @@ public class test5430 {
 
 		}
 		System.out.println(sb);
-
 	}
-
 	public static void AC(String p, ArrayDeque<Integer> deque) {
-
 		boolean isRight = true;
-
 		for (char cmd : p.toCharArray()) {
-
 			if (cmd == 'R') {
 				isRight = !isRight; // 방향을 바꿔준다.
 				continue;
