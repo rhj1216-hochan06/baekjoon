@@ -30,9 +30,7 @@ public class test2477 {
 				MaxH2 = i;
 			}
 		}
-
 		int right, left, minWidth, minHeight;
-
 		if (MaxW2 + 1 == 6)
 			right = 0;
 		else
